@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitCenter"
+                android:id="@+id/login_image"
+                android:src="@drawable/images"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="24dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:padding="4dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:id="@+id/editTextEmail"
+                android:layout_below="@+id/login_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                />
+            <EditText
+                android:padding="4dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:id="@+id/editTextPassword"
+                android:layout_below="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"
+                />
+
+            <Button
+                android:id="@+id/buttonSignin"
+                android:layout_marginTop="4dp"
+                android:layout_below="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:background="@drawable/buttonstyle"
+
+                />
+
+            <TextView
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/textViewSignUp"
+                android:layout_below="@+id/buttonSignin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Not have an account, SignUp"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

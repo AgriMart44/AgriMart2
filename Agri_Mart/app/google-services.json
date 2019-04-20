@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "905660965185",
+    "firebase_url": "https://agrimart-20190403t042552z-001.firebaseio.com",
+    "project_id": "agrimart-20190403t042552z-001",
+    "storage_bucket": "agrimart-20190403t042552z-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905660965185:android:51096f40122feddb",
+        "android_client_info": {
+          "package_name": "com.example.priyanka.agrimart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905660965185-m9vuj6ut1ol7nhqnali9s26obdggqv89.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.priyanka.agrimart",
+            "certificate_hash": "2f81876386bac80c003a58baf13dbcab5d9eeee0"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChz26LonNv1Jn8uHJjRmWzuUJ2oxRZyB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905660965185-9456sb51gc0bn9gr1frkro29j1rkkgo9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
