@@ -1,38 +1,42 @@
 {
   "project_info": {
-    "project_number": "905660965185",
-    "firebase_url": "https://agrimart-20190403t042552z-001.firebaseio.com",
-    "project_id": "agrimart-20190403t042552z-001",
-    "storage_bucket": "agrimart-20190403t042552z-001.appspot.com"
+    "project_number": "50536381102",
+    "firebase_url": "https://agrimart-aae36.firebaseio.com",
+    "project_id": "agrimart-aae36",
+    "storage_bucket": "agrimart-aae36.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:905660965185:android:51096f40122feddb",
+        "mobilesdk_app_id": "1:50536381102:android:8c2c4fa7e132f018",
         "android_client_info": {
-          "package_name": "com.example.priyanka.agrimart"
+          "package_name": "com.example.dell.agrimart1"
         }
       },
       "oauth_client": [
         {
-          "client_id": "905660965185-m9vuj6ut1ol7nhqnali9s26obdggqv89.apps.googleusercontent.com",
+          "client_id": "50536381102-lf2t97uhi4u3uh7pgj1v1jmt574qc5sj.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.priyanka.agrimart",
+            "package_name": "com.example.dell.agrimart1",
             "certificate_hash": "2f81876386bac80c003a58baf13dbcab5d9eeee0"
           }
+        },
+        {
+          "client_id": "50536381102-j36neckbfqmcg5qqjlfg803qa1vgike1.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyChz26LonNv1Jn8uHJjRmWzuUJ2oxRZyB4"
+          "current_key": "AIzaSyApL9ZlQbHxN_gGUkJmYqLVNkiwZEX60po"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "905660965185-9456sb51gc0bn9gr1frkro29j1rkkgo9.apps.googleusercontent.com",
+              "client_id": "50536381102-j36neckbfqmcg5qqjlfg803qa1vgike1.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

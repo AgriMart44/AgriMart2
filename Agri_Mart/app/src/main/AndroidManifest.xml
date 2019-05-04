@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.priyanka.agrimart">
+    package="com.example.dell.agrimart1">
 
     <application
         android:allowBackup="true"
@@ -16,9 +16,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Image" />
-        <activity android:name=".UploadActivity"></activity>
+        <activity
+            android:name=".Farmer_Activity"
+            android:label="@string/title_activity_farmer_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin_Activity"
+            android:label="@string/title_activity_admin_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WholeSaler_Activity"
+            android:label="@string/title_activity_whole_saler_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Prof_SelectActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".UI.NotRegisterActivity" />
+        <activity android:name=".UI.Verify_User_Activity" />
+        <activity android:name=".UI.BuyActivity"></activity>
+        <activity android:name=".UI.Farmer_View_Bidd_Activity"></activity>
     </application>
 
 </manifest>

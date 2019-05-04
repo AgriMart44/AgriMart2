@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitCenter"
+                android:id="@+id/reg_image"
+                android:src="@drawable/signup"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="24dp"
+                android:layout_gravity="center_horizontal" />
+
+
+            <EditText
+                android:textSize="24sp"
+                android:id="@+id/editTextName"
+                android:layout_below="@+id/reg_image"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Name"
+                />
+            <Spinner
+                android:textSize="24sp"
+                android:entries="@array/state"
+                android:id="@+id/editTextstate"
+                android:layout_below="@+id/editTextName"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter State">
+            </Spinner>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/dist"
+                android:id="@+id/editTextdistrict"
+                android:layout_below="@+id/editTextstate"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:inputType="text"
+                android:hint="Enter District">
+            </Spinner>
+
+            <Spinner
+                android:textSize="24sp"
+                android:id="@+id/editTextblock"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:entries="@array/Block"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_below="@+id/editTextdistrict"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Block">
+            </Spinner>
+            <EditText
+                android:textSize="24sp"
+                android:id="@+id/editTextvillage"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_below="@+id/editTextblock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Village"
+                />
+            <EditText
+                android:textSize="24sp"
+                android:id="@+id/editTextage"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_below="@+id/editTextvillage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Age"
+                />
+            <Spinner
+                android:textSize="24sp"
+                android:id="@+id/editTextgender"
+                android:entries="@array/Gender"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_below="@+id/editTextage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Gender">
+            </Spinner>
+            <Spinner
+                android:textSize="24sp"
+                android:entries="@array/Qualification"
+                android:id="@+id/editTextqualification"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_below="@+id/editTextgender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Qualification"
+                > </Spinner>
+            <EditText
+                android:textSize="24sp"
+                android:id="@+id/editTextHolding"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_below="@+id/editTextqualification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Land Holding"
+                />
+            <Spinner
+                android:textSize="24sp"
+                android:entries="@array/Language"
+                android:id="@+id/editTextlanguage"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_below="@+id/editTextHolding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Language"
+                />
+            <EditText
+                android:textSize="24sp"
+                android:id="@+id/editTextcontact"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_below="@+id/editTextlanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Contact"
+                />
+            <EditText
+                android:textSize="24sp"
+                android:id="@+id/editTextemail"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_below="@+id/editTextcontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Email"
+                />
+            <EditText
+                android:textSize="24sp"
+                android:id="@+id/editTextpassword"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginLeft="17dp"
+                android:layout_below="@+id/editTextemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Password"
+                />
+
+            <Button
+                android:background="@drawable/buttonstyle"
+                android:id="@+id/buttonSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="Signup"
+                android:layout_below="@id/editTextpassword"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

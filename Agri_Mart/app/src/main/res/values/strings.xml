@@ -1,3 +1,61 @@
 <resources>
     <string name="app_name">AgriMart</string>
+    <string name="title_activity_farmer_">Farmer_Activity</string>
+    <string name="tab_text_1">Products</string>
+    <string name="tab_text_2">Upload</string>
+    <string name="tab_text_3">Authenticate</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logOut">LogOut</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_admin_">Admin_Activity</string>
+    <string name="title_activity_whole_saler_">WholeSaler_Activity</string>
+    <string name="action_logIn">LogIn</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="state">
+        <item>Select State</item>
+        <item>Kerala</item>
+        <item>TamilNadu</item>
+        <item>Karnataka</item>
+        <item>Bihar</item>
+    </string-array>
+
+    <string-array name="dist">
+        <item>Select district</item>
+        <item>Kannur</item>
+        <item>Calicut</item>
+        <item>Palakkad</item>
+        <item>Malappuram</item>
+    </string-array>
+
+    <string-array name="Language">
+        <item>Select Language</item>
+        <item>Malayalam</item>
+        <item>Hindi</item>
+        <item>Bengali</item>
+        <item>Marathi</item>
+    </string-array>
+
+    <string-array name="Block">
+        <item>Select Block</item>
+        <item>Payyannur</item>
+        <item>Kannur</item>
+        <item>Thalasseri</item>
+        <item>Kanchangad</item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="Qualification">
+        <item>Qualification</item>
+        <item>Plus-two</item>
+        <item>Ba</item>
+        <item>Bsc</item>
+        <item>10th</item>
+    </string-array>
 </resources>

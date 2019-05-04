@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "50536381102",
+    "firebase_url": "https://agrimart-aae36.firebaseio.com",
+    "project_id": "agrimart-aae36",
+    "storage_bucket": "agrimart-aae36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50536381102:android:8c2c4fa7e132f018",
+        "android_client_info": {
+          "package_name": "com.example.dell.agrimart1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50536381102-j36neckbfqmcg5qqjlfg803qa1vgike1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApL9ZlQbHxN_gGUkJmYqLVNkiwZEX60po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50536381102-j36neckbfqmcg5qqjlfg803qa1vgike1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
